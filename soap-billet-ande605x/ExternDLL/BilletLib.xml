@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BilletLib</name>
+    </assembly>
+    <members>
+        <member name="M:BilletLib.Bil.#ctor(System.String,System.DateTime,System.Boolean)">
+            <summary>
+            Opretter bil objekt der passerer storebæltsbroen med nummerplade, dato for passage og om man har brobizz
+            </summary>
+            <param name="nummerplade"></param>
+            <param name="dato"></param>
+            <param name="brobizz"></param>
+        </member>
+        <member name="M:BilletLib.Bil.#ctor">
+            <summary>
+            Opretter bil objekt der passerer storebæltsbroen, uden parametre
+            </summary>
+        </member>
+    </members>
+</doc>
