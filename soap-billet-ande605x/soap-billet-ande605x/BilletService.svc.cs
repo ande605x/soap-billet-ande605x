@@ -7,12 +7,16 @@ using System.ServiceModel.Web;
 using System.Text;
 using BilletLib;
 
-namespace soap_billet_ande605x     // PRODUCER
+namespace soap_billet_ande605x     // PRODUCER-
 {
     // NOTE: You can use the "Rename" command on the "Refactor" menu to change the class name "BilletService" in code, svc and config file together.
     // NOTE: In order to launch WCF Test Client for testing this service, please select BilletService.svc or BilletService.svc.cs at the Solution Explorer and start debugging.
     public class BilletService : IBilletService
     {
+
+        // HUSK AT SLETTE GetData og GetDataUsingDataContract INDEN PUBLISH FOR BEDRE CODE COVERAGE I UNIT TESTS
+
+
         public int PrisBilMedBrobizz()
         {
             BilletLib.Bil nyBil = new BilletLib.Bil("XX99999", new DateTime(2017, 9, 20), true);
