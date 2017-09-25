@@ -20,7 +20,7 @@ namespace soap_billet_ande605x     // PRODUCER--
         public int PrisBilMedBrobizz()
         {
             BilletLib.Bil nyBil = new BilletLib.Bil("XX99999", new DateTime(2017, 9, 20), true);
-            return 99999; //nyBil.Pris();
+            return nyBil.Pris();
         }
 
         public int PrisMCMedBrobizz()

@@ -15,8 +15,7 @@ namespace soap_billet_UnitTest__Producer_
             //Act
             int testtal = bs.PrisBilMedBrobizz();
             //Assert
-            //Assert.AreEqual(228,testtal);
-            Assert.AreEqual(99999, testtal);
+            Assert.AreEqual(228,testtal);
         }
 
         [TestMethod]
