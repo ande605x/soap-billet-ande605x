@@ -41,26 +41,30 @@ namespace soap_billet_ande605x     // PRODUCER--
             return nyMC.Pris();
         }
 
+        
 
-
-
-
-        public string GetData(int value)
+        public int PrisBilMedCampingvognUdenBrobizz()
         {
-            return string.Format("You entered: {0}", value);
+            return 365;
         }
 
-        public CompositeType GetDataUsingDataContract(CompositeType composite)
-        {
-            if (composite == null)
-            {
-                throw new ArgumentNullException("composite");
-            }
-            if (composite.BoolValue)
-            {
-                composite.StringValue += "Suffix";
-            }
-            return composite;
-        }
+
+        //public string GetData(int value)
+        //{
+        //    return string.Format("You entered: {0}", value);
+        //}
+
+        //public CompositeType GetDataUsingDataContract(CompositeType composite)
+        //{
+        //    if (composite == null)
+        //    {
+        //        throw new ArgumentNullException("composite");
+        //    }
+        //    if (composite.BoolValue)
+        //    {
+        //        composite.StringValue += "Suffix";
+        //    }
+        //    return composite;
+        //}
     }
 }

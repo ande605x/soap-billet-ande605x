@@ -2,11 +2,25 @@
 using soap_billet_ande605x;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
+
+
 namespace soap_billet_UnitTest__Producer_
 {
     [TestClass]
     public class UnitTest1
     {
+        [TestMethod()]
+        public void PrisBilMedCampingvognUdenBrobizzTest()
+        {
+
+            //Arrange
+            BilletService bs = new BilletService();
+            //Act
+            int testtal = bs.PrisBilMedCampingvognUdenBrobizz();
+            //Assert
+            Assert.AreEqual(365, testtal);
+        }
+
         [TestMethod]
         public void TestPrisBilMedBrobizz()
         {
